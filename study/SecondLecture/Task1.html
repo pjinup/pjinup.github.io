@@ -1,0 +1,35 @@
+<!doctype html> <!-- Task1.html -->
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport"content="width=device-width,initial-scale=1"/>
+  <script>
+  function event1onclick(){document.getElementById("id_1").innerHTML="1. 2열 html시작태그<br/>3열~15열 내용( head 엘리먼트포함, meta 엘리먼트포함, title 엘리먼트포함, body 엘리먼트포함, p 엘리먼트포함, a 엘리먼트포함)<br/>16열 html종료태그";}
+  function event2onclick(){document.getElementById("id_2").innerHTML="2. 3열 head시작태그<br/>4열~5열 내용( meta 엘리먼트포함, title 엘리먼트 포함)<br/>6열 head종료태그";}
+  function event3onclick(){document.getElementById("id_3").innerHTML="3. 4열 meta시작태그 + 속성(charset) +속성값(utf-8)+ meta종료태그(단일태그)";}
+  function event4onclick(){document.getElementById("id_4").innerHTML="4. 5열 title시작태그 + 내용(타이틀 표제) + title종료태그<br/><br/>";}
+  function event5onclick(){document.getElementById("id_5").innerHTML="5. 7열 body시작태그<br/>8~14열 내용( p 엘리먼트 포함, a 엘리먼트 포함)<br/>15열 body종료태그";}
+  function event6onclick(){document.getElementById("id_6").innerHTML="6. 8열 p시작태그<br/>9~13열 내용(공공데이터 포털이동은, a 엘리먼트 포함, 를 클릭하세요!)<br/>14열 p종료태그";}
+  function event7onclick(){document.getElementById("id_7").innerHTML="7. 10열 a시작태그 + 속성(href) + 속성값(http://www.data.go.kr)<br/>11열 내용(여기)<br/>12열 a종료태그";}
+</script>
+<title>2017-03-07 과제1</title>
+</head>
+<body>
+<h2>숙제1 : 다음 HTML문서에서 사용된 모든 엘리먼트를 쓰시오(누르세요를 누르면 답이 표시됩니다)</h2>
+  <h3 style="color:blue";><p onclick="event1onclick()">1. html 엘리먼트 :(누르세요) </p></h3>
+  <p id="id_1"> 첫번째 엘리먼트의 답 </p>  
+  <h3 style="color:blue";><p onclick="event2onclick()">2. head 엘리먼트 :(누르세요) </p></h3>
+  <p id="id_2"> 두번째 엘리먼트의 답 </p>    
+ <h3 style="color:blue";> <p onclick="event3onclick()">3. meta 엘리먼트 :(누르세요) </p></h3>
+  <p id="id_3"> 세번째 엘리먼트의 답 </p>   
+ <h3 style="color:blue";> <p onclick="event4onclick()">4. title 엘리먼트 :(누르세요) </p></h3>
+  <p id="id_4"> 네번째 엘리먼트의 답 </p>   
+  <h3 style="color:blue";><p onclick="event5onclick()">5. body 엘리먼트 :(누르세요) </p></h3>
+  <p id="id_5"> 다섯번째 엘리먼트의 답 </p>    
+ <h3 style="color:blue";> <p onclick="event6onclick()">6. p 엘리먼트 :(누르세요) </p></h3>
+  <p id="id_6"> 여섯번째 엘리먼트의 답 </p>   
+  <h3 style="color:blue";><p onclick="event7onclick()">7. a 엘리먼트 :(누르세요) </p></h3>
+  <p id="id_7"> 일곱번째 엘리먼트의 답 </p> 
+  
+ </body>
+ </html>
