@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8"%>
-<html>
+<html lang="ko">
 <head>
 <title> Request 인스턴스 표현 </title>
 </head>
