@@ -1,17 +1,15 @@
 <%@ page contentType="text/html; charset=utf-8"%>
-<html lang="ko">
-<head>
-<title> Request 인스턴스 표현 </title>
-</head>
+<html>
+<head><title>Request 인스턴스 표현</title></head>
 
 <body>
-서버 도메인 이름 : <%= request.getServerName()%><br/>
-서버 포트 : <%= request.getServerPort()%><br/>
-컨텍스트 경로 : <%= request.getContextPath()%><br/>
-클라이언트 주소 : <%= request.getRemoteAddr()%><br/>
-요청 프로토톨 : <%= request.getProtocol()%><br/>
-요청 방식 : <%= request.getMethod()%><br/>
-질의 내용 : <%= request.getQueryString()%><br/>
+서버 도메인 이름 : <%=request.getServerName()%><br/>
+서버 포트 : <%=request.getServerPoint()%><br/>
+컨텍스트 경로 : <%=request.getContextPath()%><br/>
+클라이언트 주소 : <%=request.getRemoteAddr()%><br/>
+요청프로토톨 : <%=request.getProtocol()%><br/>
+요청 방식 : <%=request.getMethod()%><br/>
+질의 내용 : <%=request.getQueryString()%><br/>
 
 <footer>
 <p>&copy; 20XXMade by Korea. All rights reserved.</p></footer>
