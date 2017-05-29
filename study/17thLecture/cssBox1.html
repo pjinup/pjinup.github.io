@@ -14,28 +14,22 @@ div.container{box-sizing:border-box; width:600px;border:1px solid black;}
 <title> CSS BOX 실습 </title>
 </head>
 
-<body><section><h3>박스</h3>
+<body>
+  <section>
+    <h3>박스</h3>
 <img src=""width="300" height="200" alt="랍스터">
 <div class="box1">위랍스터 그림 콘텐츠의 크기는 300*200인 반면 지금 읽고 있는 엘리먼트의 크기는 콘텐츠 폭300, 패딩20, 보더 10을 더한 330 입니다.</div>
 <p></p>
 <div class="box2">하지만, box-sizing의 border-box 속성값을 사용하면 콘텐츠, 패딩 보더 포함하여 그림과 같이 너비가 300이 됩니다.</div>
 <div>300px 그림 두개를 붙여 봅시다. 그림의 너비가 300이고 보더가 1px이므로 그림이 한 블럭 안에 나타나지 않습니다. 하지만, box-sizing의 border-box 사용하고 너비를 50%로 설정하면 복잡한 계산없이 표현됩니다.</div>
 <div class="container">
-<img src=""><img src=""></div></div>
+<img src=""><img src=""><div style="clear:both;"></div></div>
+  <div class="container">
 <div class="box3" src=""><img class="box3" src="">
 <div style="clear:both;"></div></div>
-</section></body></html>
-<div id="division1">
-<p>분할된 공간 1 입니다. </p>
-<p>분할된 공간 1 입니다.</p>
-</div>
-
-<div id="division2">
-<p>분할된 공간 2 입니다. </p>
-<p>분할된 공간 2 입니다.</p>
-</div>
-
+    </section>
+  
 <footer>
 <p>&copy; 20XXMade by Korea. All rights reserved.</p></footer>
-</body>
-</html>
+    </body>
+  </html>
