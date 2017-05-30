@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+</head>
+<body>
+<section>
+<script>
+function sumy(){
+var result=0;
+for(var i=0;i<arguments.length; i++){
+result=result+arguments[i];
+}
+return result;
+}
+
+function printValue(){
+for(var i in arguments)
+document.write(arguments[i],"<br/>");
+}
+var value=sumy(10,20,30);
+printValue(value);
+printValue("a",10,15,"v");
+
+</script>
+
+
+</section>
+</body>
+</html>
