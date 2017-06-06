@@ -1,4 +1,4 @@
-@charset="utf-8";
+@charset "utf-8";
 
 body{font-family:Verdana, snas-serif; font-size:0.8em;}
 header, nav, section, article, footer{border:1px solid gray; margin:5px; padding:8px;}
