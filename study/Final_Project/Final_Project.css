@@ -3,9 +3,9 @@ header, nav, section, article, aside,footer
 {border:1px solid gray; margin:5px; padding:8px;width:1030px;}
 header img{width:975px;height:200px;}
 
-section{ color:#b7e0c5; width:775px; float:left;}
-section section{ color:#b7d3e0; width:750px;float:left;}
-section section section{ color:#b7e0d9; width:725px;float:left;}
+section{ background-color:#b7e0c5; width:775px; float:left;}
+section section{ background-color:#b7d3e0; width:750px;float:left;}
+section section section{ background-color:#b7e0d9; width:725px;float:left;}
 
 aside{width:230px;float:left;line-height:90px;}
 
