@@ -1,4 +1,4 @@
-@charset"utf-8";
+@charset "utf-8";
 header, nav, section, article, aside,footer
 {border:1px solid gray; margin:5px; padding:8px;width:1030px;}
 header img{width:975px;height:200px;}
