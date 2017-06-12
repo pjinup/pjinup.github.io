@@ -3,7 +3,8 @@
 <head>
 <meta http-equiv="Content-Type"content="text/html;charset=utf-8"/>
 <meta name="viewport"content="width=device-width,initial-scale=1"/>
-
+<script src="http://code.jquery.com/jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="https://pjinup.github.io/study/20th Lecture/sample.css"/><script scr="https://pjinup.github.io/study/20th Lecture/sample.js"></script>
 
 <title> 웹프로그래밍 실습</title>
 </head>
@@ -30,6 +31,9 @@ var person = new MyClass();
 document.write("객체변수:"+"이름="+person.name+", 나이="+person.age+", 나이>20="+person.flag+"<br/>");
 person.nextAge(person.age,10);
 var color16=color.toString(16); document.write(color+" "+color16);
+$(document).ready(function(){
+$("footer").css("color","#"+color16);
+})
 
 </script>
 </section>
