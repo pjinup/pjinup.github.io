@@ -1,6 +1,7 @@
 @charset "utf-8";
+
 header, nav, section, article, aside,footer
-{border:1px solid gray; margin:5px; padding:8px;width:1030px;}
+{background-color:#efffed; border:1px solid gray; margin:5px; padding:8px;width:1030px;}
 header img{width:975px;height:200px;}
 
 section{ background-color:#b7e0c5; width:775px; float:left;}
@@ -9,12 +10,12 @@ section section section{ background-color:#b7e0d9; width:725px;float:left;}
 
 aside{width:230px;float:left;line-height:90px;}
 
-footer{height:100px;clear:both;}
+footer{background-color:#acdba6;height:100px;clear:both;}
 
 nav ul{margin:0;padding:0;}
 nav ul li{display:inline; margin:5px;}
 
-aside ul{margin:0; padding:0;}
+aside ul{background-color:#acdba6; margin:0; padding:0;}
 aside ul li{display:block;margin:5px;}
 aside ul li img{width:50px;height:50px;}
 
